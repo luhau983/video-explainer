@@ -1,0 +1,25 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local backups and generated media
+ui-backups/
+ui-motion-*/
+out/**
+!out/images/
+!out/images/.gitkeep
+!out/videos/
+!out/videos/.gitkeep
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
